@@ -86,7 +86,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
+          href="https://my.newtonschool.co/user/tanzeelamansoor99"
           target="_blank"
           rel="noopener noreferrer"
         >

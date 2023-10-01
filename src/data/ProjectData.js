@@ -1,40 +1,40 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/spotify.png",
+    title: "SPOTIFY CLONE",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "A React-based music streaming app faithfully replicating Spotify's core features, offering a vast music library, playlists, and personalized recommendations for an immersive music experience.",
+    tech_stack: ['HTML','JAVASCRIPT','REACT','TAILWIND','LOCAL STORAGE'],
+    github_url: "https://github.com/thisistanzeela/Spotify-Clone---React-Project-2---h62x8i5haq8e",
+    demo_url: "https://spotify-clone-aoty.onrender.com/",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/meesho.png",
+    title: "MEESHO CLONE",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "A user-friendly React-based e-commerce app emulating Meesho's core features, providing seamless shopping with product browsing, cart management, and secure payment processing for a top-notch shopping experience.",
+    tech_stack: ['HTML','JAVASCRIPT','REACT','REDUX','CONTEXT','FIREBASE'],
+    github_url: "https://github.com/thisistanzeela/Meesho-Clone---React-Project---nwb0kuo1kc79",
+    demo_url: "https://meesho-clone-g08s.onrender.com/",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/mealPlanner.png",
+    title: "MEAL PLANNER",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "Online Meal Planner: Enter age, height, weight, gender, and meal type for personalized meal plans. Get recipes and follow instructions to prepare your customized meals for a healthier lifestyle.",
+    tech_stack: ['HTML','CSS','BOOTSTRAP','JAVASCRIPT'],
+    github_url: "https://github.com/thisistanzeela/Meal-Planner-Project---JavaScript-Project---pa17l0ms4i38",
+    demo_url: "https://meal-planner-project-java-script-project-pa17l0ms4i38.vercel.app/",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/FoodOrdering.png",
+    title: "Food Delivery App(TRYYUM)",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "A finely crafted food delivery app made with HTML, CSS, and JavaScript. It simplifies food ordering with user registration, search, cart management, and secure payment processing for a seamless experience.",
+    tech_stack: ['HTML','CSS','BOOTSTRAP','JAVASCRIPT','LOCAL STORAGE'],
+    github_url: "https://github.com/thisistanzeela/Group-project-FoodDelivery",
+    demo_url: "https://thisistanzeela.github.io/Group-project-FoodDelivery/",
   },
 ];
 
@@ -66,10 +66,6 @@ export const stackList = [
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
   },
@@ -87,11 +83,7 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
+    name: "DS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
@@ -99,7 +91,7 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-    name: "MySQL",
+    name: "SQL",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
@@ -111,7 +103,7 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
+    name: "Tailwind Css",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
