@@ -28,28 +28,28 @@ export const Email = styled.div`
     }
   }
 `;
-export const MobileNumber = styled.div`
-margin-top:2rem;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  column-gap:13rem;
+// export const MobileNumber = styled.div`
+// margin-top:2rem;
+//   display: flex;
+//   align-items: center;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+//   column-gap:13rem;
 
-  span {
-    font-size: 1rem;
-    font-weight: 400;
-  }
+//   span {
+//     font-size: 1rem;
+//     font-weight: 400;
+//   }
 
-  @media (min-width: 576px) {
-    span {
-      font-size: 1.25rem;
-    }
-  }
-  @media (min-width: 992px) {
-    span {
-      font-size: 1.5rem;
-    }
-  }
-`;
+//   @media (min-width: 576px) {
+//     span {
+//       font-size: 1.25rem;
+//     }
+//   }
+//   @media (min-width: 992px) {
+//     span {
+//       font-size: 1.5rem;
+//     }
+//   }
+// `;
