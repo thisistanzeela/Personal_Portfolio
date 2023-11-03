@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ContactWrapper, Email ,MobileNumber} from "./ContactElements";
+import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
@@ -16,7 +16,7 @@ function Contact() {
   // };
 
   const [showEmailTooltip, setShowEmailTooltip] = useState(false);
-  const [showMobileTooltip, setShowMobileTooltip] = useState(false);
+  // const [showMobileTooltip, setShowMobileTooltip] = useState(false);
 
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText("tanzeelamansoor99@gmail.com");
@@ -26,13 +26,13 @@ function Contact() {
     }, 700);
   };
 
-  const copyMobileToClipboard = () => {
-    navigator.clipboard.writeText("+91 7562948549"); 
-    setShowMobileTooltip(true);
-    setTimeout(() => {
-      setShowMobileTooltip(false);
-    }, 700);
-  };
+  // const copyMobileToClipboard = () => {
+  //   navigator.clipboard.writeText(""); 
+  //   setShowMobileTooltip(true);
+  //   setTimeout(() => {
+  //     setShowMobileTooltip(false);
+  //   }, 700);
+  // };
 
 
   return (
@@ -83,49 +83,49 @@ function Contact() {
                 Send Email
               </a>
             </Email>
-            <MobileNumber>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  columnGap: "20px",
-                  rowGap: "10px",
-                  flexWrap: "wrap",
-                  justifyContent: "center",
-                }}
-              >
-                <span>+91 7562948549</span>
-                <Tooltip
-                  PopperProps={{
-                    disablePortal: true,
-                  }}
-                  open={showMobileTooltip}
-                  onClose={() => setShowMobileTooltip(false)}
-                  title="Mobile Number Copied!"
-                  TransitionComponent={Zoom}
-                  disableFocusListener
-                  disableHoverListener
-                  disableTouchListener
-                  placement="bottom"
-                >
-                  <IconButton onClick={copyMobileToClipboard}>
-                    <MdContentCopy
-                      size={25}
-                      style={{ cursor: "pointer", color: "#151418" }}
-                    />
-                  </IconButton>
-                </Tooltip>
-              </div>
-              <a
-                className="btn PrimaryBtn btn-shadow"
-                href="tel:+91 7562948549"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{padding:"10px 30px"}}
-              >
-                Call Now
-              </a>
-            </MobileNumber>
+            // <MobileNumber>
+            //   <div
+            //     style={{
+            //       display: "flex",
+            //       alignItems: "center",
+            //       columnGap: "20px",
+            //       rowGap: "10px",
+            //       flexWrap: "wrap",
+            //       justifyContent: "center",
+            //     }}
+            //   >
+            //     <span>+91 </span>
+            //     <Tooltip
+            //       PopperProps={{
+            //         disablePortal: true,
+            //       }}
+            //       open={showMobileTooltip}
+            //       onClose={() => setShowMobileTooltip(false)}
+            //       title="Mobile Number Copied!"
+            //       TransitionComponent={Zoom}
+            //       disableFocusListener
+            //       disableHoverListener
+            //       disableTouchListener
+            //       placement="bottom"
+            //     >
+            //       <IconButton onClick={copyMobileToClipboard}>
+            //         <MdContentCopy
+            //           size={25}
+            //           style={{ cursor: "pointer", color: "#151418" }}
+            //         />
+            //       </IconButton>
+            //     </Tooltip>
+            //   </div>
+            //   <a
+            //     className="btn PrimaryBtn btn-shadow"
+            //     href="tel:+91 "
+            //     target="_blank"
+            //     rel="noopener noreferrer"
+            //     style={{padding:"10px 30px"}}
+            //   >
+            //     Call Now
+            //   </a>
+            // </MobileNumber>
           </div>
         </ScrollAnimation>
       </div>
