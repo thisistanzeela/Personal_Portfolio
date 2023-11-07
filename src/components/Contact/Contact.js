@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ContactWrapper, Email ,MobileNumber} from "./ContactElements";
+import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
@@ -16,7 +16,7 @@ function Contact() {
   // };
 
   const [showEmailTooltip, setShowEmailTooltip] = useState(false);
-  const [showMobileTooltip, setShowMobileTooltip] = useState(false);
+  // const [showMobileTooltip, setShowMobileTooltip] = useState(false);
 
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText("tanzeelamansoor99@gmail.com");
@@ -26,13 +26,13 @@ function Contact() {
     }, 700);
   };
 
-  const copyMobileToClipboard = () => {
-    navigator.clipboard.writeText("+91 7562948549"); 
-    setShowMobileTooltip(true);
-    setTimeout(() => {
-      setShowMobileTooltip(false);
-    }, 700);
-  };
+  // const copyMobileToClipboard = () => {
+  //   navigator.clipboard.writeText("+91 7562948549"); 
+  //   setShowMobileTooltip(true);
+  //   setTimeout(() => {
+  //     setShowMobileTooltip(false);
+  //   }, 700);
+  // };
 
 
   return (
@@ -83,7 +83,7 @@ function Contact() {
                 Send Email
               </a>
             </Email>
-            <MobileNumber>
+            {/* <MobileNumber>
               <div
                 style={{
                   display: "flex",
@@ -125,7 +125,7 @@ function Contact() {
               >
                 Call Now
               </a>
-            </MobileNumber>
+            </MobileNumber> */}
           </div>
         </ScrollAnimation>
       </div>
