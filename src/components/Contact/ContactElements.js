@@ -52,4 +52,8 @@ export const Email = styled.div`
 //       font-size: 1.5rem;
 //     }
 //   }
+<<<<<<< HEAD
 // `;
+=======
+// `;
+>>>>>>> d933e740765483e125a7e38120f65b9066e80ead

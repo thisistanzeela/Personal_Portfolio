@@ -27,7 +27,11 @@ function Contact() {
   };
 
   // const copyMobileToClipboard = () => {
+<<<<<<< HEAD
   //   navigator.clipboard.writeText("+91 7562948549"); 
+=======
+  //   navigator.clipboard.writeText(""); 
+>>>>>>> d933e740765483e125a7e38120f65b9066e80ead
   //   setShowMobileTooltip(true);
   //   setTimeout(() => {
   //     setShowMobileTooltip(false);
@@ -83,6 +87,7 @@ function Contact() {
                 Send Email
               </a>
             </Email>
+<<<<<<< HEAD
             {/* <MobileNumber>
               <div
                 style={{
@@ -126,6 +131,51 @@ function Contact() {
                 Call Now
               </a>
             </MobileNumber> */}
+=======
+            // <MobileNumber>
+            //   <div
+            //     style={{
+            //       display: "flex",
+            //       alignItems: "center",
+            //       columnGap: "20px",
+            //       rowGap: "10px",
+            //       flexWrap: "wrap",
+            //       justifyContent: "center",
+            //     }}
+            //   >
+            //     <span>+91 </span>
+            //     <Tooltip
+            //       PopperProps={{
+            //         disablePortal: true,
+            //       }}
+            //       open={showMobileTooltip}
+            //       onClose={() => setShowMobileTooltip(false)}
+            //       title="Mobile Number Copied!"
+            //       TransitionComponent={Zoom}
+            //       disableFocusListener
+            //       disableHoverListener
+            //       disableTouchListener
+            //       placement="bottom"
+            //     >
+            //       <IconButton onClick={copyMobileToClipboard}>
+            //         <MdContentCopy
+            //           size={25}
+            //           style={{ cursor: "pointer", color: "#151418" }}
+            //         />
+            //       </IconButton>
+            //     </Tooltip>
+            //   </div>
+            //   <a
+            //     className="btn PrimaryBtn btn-shadow"
+            //     href="tel:+91 "
+            //     target="_blank"
+            //     rel="noopener noreferrer"
+            //     style={{padding:"10px 30px"}}
+            //   >
+            //     Call Now
+            //   </a>
+            // </MobileNumber>
+>>>>>>> d933e740765483e125a7e38120f65b9066e80ead
           </div>
         </ScrollAnimation>
       </div>
